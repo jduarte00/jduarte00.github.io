@@ -24,7 +24,7 @@
   url: archives
   icon: "fas fa-archive"
 -
-  name: "About"
-  icon: "fas fa-info"
+  name: "CV"
+  icon: "fas fa-file"
   path: tabs
   url: about

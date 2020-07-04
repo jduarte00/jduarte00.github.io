@@ -8,40 +8,38 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Chirpy                          # the main title
+title: Jose Duarte                          # the main title
 
-tagline: A text-focused Jekyll theme.  # it will display as the sub-title
+tagline: Data Scientist. Maestría en Cómputo Estadístico CIMAT. Licenciado en Finazas.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  Portafolio General José Antonio Duarte Data Science CIMAT Cómputo Estadístico
 
 # Replace with the website url, e.g. 'https://username.github.io'
-url: 'protocol://domain'
+url: 'https://jduarte00.github.io'
 
-author: your_full_name                  # change to your full name
+author: Jose Antonio Duarte Mendieta                  # change to your full name
 
-avatar: /assets/img/sample/avatar.jpg   # support internet resources
+avatar: https://rawcdn.githack.com/jduarte00/new-website/00eeb700a31732405a01621c4d3081ab7ffd4b07/logo.png   # support internet resources
 
 github:
-  username: github_username             # change to your github username
+  username: jduarte00             # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+#twitter:
+  #username: twitter_username            # change to your twitter username
 
 social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@doamin.com             # change to your email address
+  name: Jose Duarte                  # it will shows as the copyright owner in Footer
+  email: jmendieta@ceemp.com.mx             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    # https://twitter.com/username      # change to your twitter homepage
+    - https://github.com/jduarte00       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/jaduartemendieta/
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+google_site_verification: <meta name="google-site-verification" content="6Ubjsomc1IOClRkipLlzWW0dinN4-ic8TVkoxCbGF6s" /> # change to your verification string
 
 #--------------------------
 
@@ -51,7 +49,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: America/Mexico_City
 
 google_analytics:
   id: ''          # Fill with your Google Analytics ID
@@ -128,7 +126,7 @@ defaults:
     scope:
       path: tags
     values:
-      tab_active: Tags
+      tab_active: Tacciss
       location: Tag
       breadcrumb:
         -
@@ -178,7 +176,6 @@ compress_html:
     envs: []
 
 exclude:
-  - vendor        # Avoid Jekyll mistakenly read the vendor directory on Travis-CI's VM .
   - Gemfile.lock
   - Gemfile
   - tools
