@@ -10,10 +10,10 @@
 
 title: Jose Duarte                          # the main title
 
-tagline: Data Scientist. Maestría en Cómputo Estadístico CIMAT. Licenciado en Finazas.   # it will display as the sub-title
+tagline: Data Scientist. Maestría en Cómputo Estadístico CIMAT. Licenciado en Finanzas.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Portafolio General José Antonio Duarte Data Science CIMAT Cómputo Estadístico
+  Portafolio José Antonio Duarte Data Science CIMAT Cómputo Estadístico Power BI
 
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'https://jduarte00.github.io'
